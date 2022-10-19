@@ -1,0 +1,148 @@
+.Package-Containner{
+    display:block;
+}
+
+
+.packagePic1{
+    /* width: 20px; */
+    height: 350px;
+    width:100%;
+    
+
+
+   /* padding:20em; */
+}
+
+.packagePic2{
+    height: 350px;
+    width:100%;
+
+    
+}
+
+/* .packagePic1Div:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.226), black);
+}
+
+.packagePic2Div:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.226), black);
+}
+
+.packagePic3Div:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.226), black);
+} */
+
+.packagePic1:hover{
+    opacity: .9;
+}
+
+.packagePic2:hover{
+    opacity: .9;
+}
+
+.packagePic3:hover{
+    opacity: .9;
+}
+
+.videoDiv{
+    background-color: #000000;
+}
+
+.videoDiv:hover{
+    
+        opacity: .9
+    
+}
+.packagePic3{
+    height: 350px;
+    width:100%;
+
+
+}
+
+/* .packagePic4{
+    height: 350px;
+    width:100%;
+
+
+} */
+
+.packagePic1Button{
+    background-color: #4CAF50;
+    border: none;
+    text-align: left;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+    
+}
+
+.packagePic1Button:hover{
+    background-color: #93a3ff;
+    color:#000000
+}
+
+.packagePic2Button{
+
+    border: none;
+    background-color: #4CAF50;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.packagePic2Button:hover{
+    background-color: #93a3ff;
+    color:#000000
+}
+
+.packagePic3Button{
+
+    border: none;
+    background-color: #4CAF50;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.packagePic3Button:hover{
+    background-color: #93a3ff;
+    color:#000000
+}
+
+.packageButton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.packageButton:hover{
+    background-color: #93a3ff;
+    color:#000000
+}

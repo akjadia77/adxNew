@@ -1,0 +1,24 @@
+.contactUsheading{
+    block-size: 50px;
+    background-color: black;
+    color:white;
+}
+.contactUsheading:hover{
+    color:black;
+    background-color: white;
+}
+
+.contactUsContant{
+    block-size: 50px;
+}
+
+.contactUsPic{
+    height: 400px;
+  width: 50%;
+}
+.socialIcons{
+    color:white ;
+}
+.socialIcons:hover{
+    color:black ;
+}
