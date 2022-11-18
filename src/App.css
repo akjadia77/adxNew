@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    scroll-behavior: smooth;
+}
+
+/* scroll-snap-margin-top: 130px; */
+
+
+/* .App {
+  text-align: center;
+}
+.Home{
+  position: absolute;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+.img1{
+    height:759px;
+
+    
+    
+}
+.firstimgtext1{
+    position: relative;
+  top: 10%;
+  font-size: 150px;
+  left: 52%;
+  color: #ffffff88;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transform: translate(-50%, -50%);
+}.firstimgtext2{
+ position: absolute;
+  top: 80%;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffffbb;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transform: translate(40%, 50%);
+} */

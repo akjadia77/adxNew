@@ -1,0 +1,18 @@
+.contactus {
+    max-height: 90vh;
+  /*   margin-top: 3.5rem; */
+    z-index: -20;
+}
+
+.contact_container {
+    max-height: 100vh;
+    /* background: lightblue; */
+    background-color: rgba(45, 41, 41, 0.975);
+    padding: 5rem;
+    /* display: grid; */
+   /*  grid-template-columns: 50% 80%; */
+    gap: 4rem;
+   /*  height: 30rem; */
+  /*   margin: 7rem auto; */
+    /* z-index: -1; */
+}

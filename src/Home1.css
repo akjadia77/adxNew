@@ -1,0 +1,367 @@
+/* ================================= NAV BAR STYLING ================================ */
+
+/* .headerbuttonalin img {
+    margin-left: 32rem;
+} */
+
+.navbar{
+    display: flex;
+    align-items:center ;
+   
+}
+
+.headerbutton {
+    text-align: right;
+    height: 300px;
+    background:none;
+    opacity: 2rem;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 50 px;
+    margin-left: 50px;
+}
+
+.headerhei {
+    display: inline;
+    list-style: none;
+}
+
+.headerhei a {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    position: relative;
+}
+
+.headerhei a:hover {
+    color: rgba(180, 186, 197, 0.853);
+    transition: all 0.2s ease-in;
+}
+/* 
+a::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px solid rgb(187, 181, 181);
+    transition: all 0.4s linear;
+} */
+
+a:hover::after {
+    width: 100%;
+}
+
+.headerbuttonalin {
+    display: flex;
+    justify-content: center;
+    max-width: 75rem;
+    margin: auto;
+
+}
+
+.headericon {
+    width: 2rem;
+    height: auto;
+    padding: 10px 10px;
+    
+}
+
+
+/* =============================================== HOME PAGE STYLING =================================== */
+
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+    block-size: 200px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #000000;
+    color: white;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcomeText:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.45s ease;
+}
+
+.heading1 {
+    font-style: bold;
+    font-size: 40px;
+}
+
+.heading2 {
+    font-size: 35px;
+}
+
+.heading2 span {
+    color: rgb(199, 75, 99);
+}
+
+.rendorApplicationtext {
+    block-size: 150px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rendorApplicationtext h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imageheading1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagecontent{
+    font-size: 1rem;
+    text-transform:initial;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.rendorApplicationtext:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.45s ease;
+}
+
+.container {
+    background-color: #000000c2;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    height: 60px;
+}
+
+.buttons {
+    position: sticky;
+    top: 0;
+    
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide{
+    height: 80vh;
+}
+
+.carousel .slide img{
+    max-height: 70%;
+    width: 100%;
+}
+
+.image{
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+
+}
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #2788ae88;
+    bottom: 40px;
+    border-radius: 4rem;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    z-index: 99;
+}
+
+.arrow {
+    margin-top: 10px;
+    font-size: 70px;
+    
+}
+
+.main-img1 {
+
+    /* gap: 10rem; */
+    /* height: 400px; */
+    /* width: 50%; */
+    /* width: calc(100% - 100px); */
+    box-shadow: inset;
+    display: flex;
+    right: 50px;
+    /* text-align: left; */
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.main-img1 img {
+
+    margin-left: 2rem;
+    max-width: 100%;
+    border-radius: 3%;
+    max-height: 50vh;
+}
+
+.main-img-content {
+    margin: 0 2.5rem 0 4rem;
+}
+
+.main-img-content p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.imagedetails {
+    font-size: 35px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.main-img2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    /* height: 500px; */
+    margin-top: 50px;
+    border-radius: 3%;
+    margin-left: 50px;
+    /* width: 50%; */
+    display: flex;
+    text-align: left;
+}
+
+.main-img2 img {
+    display: block;
+    margin-right: 6rem;
+    width: 80%;
+    border-radius: 3%;
+    height: 50vh;
+}
+
+.main-img2 p {
+    text-align: justify;
+    display: inline;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    border-radius: 3%;
+}
+
+.main-img3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    /* height: 500px; */
+    /* width: 50%; */
+    display: flex;
+    border-radius: 3%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.main-img3 img {
+    display: block;
+    margin-left: 2rem;
+    width: 80%;
+    border-radius: 3%;
+    height: 50vh;
+}
+
+.main-img3 p {
+    text-align: justify;
+    display: inline;
+    border-radius: 3%;
+    margin-right: 3rem;
+    margin-top: 10rem;
+}
+
+.main-img4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    /* height: 500px; */
+    /* width: 50%; */
+    display: flex;
+    border-radius: 3%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.main-img5 img {
+    display: block;
+    margin-right: 1rem;
+    width: 80%;
+    border-radius: 3%;
+    height: 50vh;
+}
+
+
+
+.main-img5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    /* height: 500px; */
+    /* width: 50%; */
+    float: top;
+    border-radius: 3%;
+    display: flex;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+
+/* =========================================================== OUR SERVICES STYLING ============================================== */
+
+.servicesHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.servicesHeading h1 {
+    z-index: -1;
+    font-size: 2rem;
+    font-weight: 900;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.servicesHeading h1::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    height: 20px;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    /* color: black; */
+}

@@ -1,0 +1,47 @@
+
+
+.navbar-cpomonent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    color: #FFF;
+    background-color: #000000c2;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+}
+
+.navbar-logo {
+    width: 3rem;
+    cursor: pointer;
+    margin-top: .6rem;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.2rem;
+   
+}
+
+.nevbar-item {
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+}
+
+.nevbar-item:hover, .nevbar-item:focus {
+    border: none;
+    outline: none;
+}
